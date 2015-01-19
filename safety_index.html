@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="static/css/bootstrap.css">
+	<link rel="stylesheet" href="static/css/common.css">
+	<link rel="stylesheet" href="static/css/common_iteration_1.css">
+	<script src="static/js/jquery-1.11.0.min.js"></script>
+	<script src="static/js/bootstrap.js"></script>
+	<script src="static/js/portfolio.js"></script>
+</head>
+<body>
+	
+	<div id="wrapper" class="container">
+		<div id="student_description">
+			<div class="media-group">
+				<div class="media">
+					<img src="static/img/default_profile.png" alt="" class="img-responsive img-thumbnail media-object pull-left">
+					<div class="media-body">
+						<h1 class="media-heading">Eleanor Zimmermann's<small> Portfolio</small></h1>
+						<p>Eleanor is a full stack developer specializing in PHP, JavaScript, MySQL, Code Igniter and Node.  She  attended Carnegie Mellon University and then worked in the Geospatial/Mapping industry for 5 years. After working for Google Maps, she decided she'd rather be the programmer behind the curtain instead of the front end user. She is a recent graduate of, and current TA for, The Coding Dojo in Seattle.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="portfolio_content">
+			<ul id="skill_set_list" class="nav nav-tabs">
+				<li class="active"><a href="#php" data-toggle="tab">PHP</a></li>
+				<li><a href="#javascript" data-toggle="tab">JavaScript</a></li>
+				<li><a href="#mobile" data-toggle="tab">JQuery Mobile/PhoneGap</a></li>
+				<li><a href="#resume" data-toggle="tab">Resume</a></li>
+			</ul>
+
+			<div id="portfolio_body" class="tab-content panel panel-default">
+				<div class="panel-body tab-pane active" id="php">
+					<div class="project_list list-group">
+						<a href="http://eleanorzimmermann.com/jambajuice" class="project_link list-group-item" data-description="Platform for ordering smoothies online" data-title="Jamba Juice" data-technologies="HTML5/CSS, Bootstrap, PHP, and Javascript/JQuery">
+							<img src="static/img/mini_jj.jpg" class="center-block img-thumbnail">
+							<div class="clearfix"></div>
+							<h5 class="list-group-item-heading text-center">Jamba Juice</h5>
+						</a>
+						<a href="http://eleanorzimmermann.com/checkerboard" class="project_link list-group-item" data-description="PHP generated CSS file creates a chess board with randomly generated colors. Click the button to create another board." data-title="Random Chess" data-technologies="PHP, HTML5/CSS3">
+							<img src="static/img/mini_check.jpg" class="center-block img-thumbnail">
+							<div class="clearfix"></div>
+							<h5 class="list-group-item-heading text-center">Randomized Chess Board</h5>
+						</a>
+					</div>
+					<div class="preview_pane_container">
+						<h4></h4>
+						<p class="project_description"></p>
+						<p class="technologies_used"></p>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="preview_pane"></div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="panel-body tab-pane " id="javascript">
+					<div class="project_list list-group">
+						<a href="http://eleanorzimmermann.com/ballpit" class="project_link list-group-item" data-description="Click to create JavaScript generated with randomized velocity and color. The longer you the click, the larger the ball." data-title="Ball Pit"
+						data-technologies="HTML5/CSS3, JavaScript, and JQuery.">
+							<img src="static/img/mini_ballpit.png" class="center-block img-thumbnail">
+							<div class="clearfix"></div>
+							<h5 class="list-group-item-heading text-center">Ball Pit</h5>
+						</a>
+						<a href="http://eleanorzimmermann.com/scroll" class="project_link list-group-item" data-description="Visual illusion of typing" data-title="Ball Pit" data-technologies="JavaScript">
+							<img src="static/img/mini_scroll.png" class="center-block img-thumbnail">
+							<div class="clearfix"></div>
+							<h5 class="list-group-item-heading text-center">Seattle Scroll</h5>
+						</a>
+						<a href="http://eleanorzimmermann.com/ninja" class="project_link list-group-item" data-description="Click inside the black window to activate, and then use left/right/up/down arrows to move the ninja" data-title="Ball Pit" data-technologies="JavaScript and JQuery.">
+							<img src="static/img/mini_ninja.png" class="center-block img-thumbnail">
+							<div class="clearfix"></div>
+							<h5 class="list-group-item-heading text-center">Ninja</h5>
+						</a>
+					</div>
+					<div class="preview_pane_container">
+						<h4></h4>
+						<p class="project_description"></p>
+						<p class="technologies_used"></p>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="preview_pane"></div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="panel-body tab-pane " id="mobile">
+					<div class="project_list list-group">
+						<a href="http://eleanorzimmermann.com/threadz" class="project_link list-group-item" data-description="Conceptual mobile app for a consignment store. Formatted to be compatible with iOS, Android, and Windows Phone." data-title="Threadz Tracker" data-technologies="JQuery Mobile, Codiqa, PhoneGap">
+							<img src="static/img/mini_threadz.png" class="center-block img-thumbnail">
+							<div class="clearfix"></div>
+							<h5 class="list-group-item-heading text-center"></h5>
+						</a>
+					</div>
+					<div class="preview_pane_container">
+						<h4></h4>
+						<p class="project_description"></p>
+						<p class="technologies_used"></p>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="preview_pane"></div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			
+				<div class="panel-body tab-pane" id="resume">
+					<div class="clearfix" height="550px">
+						<iframe src="http://eleanorzimmermann.com/resume" width="920 px" height="500px" frameborder="0"></iframe>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

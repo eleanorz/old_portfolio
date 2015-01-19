@@ -1,0 +1,21 @@
+[25-Jan-2014 21:18:31] PHP Parse error:  syntax error, unexpected $end in /home4/eleanorz/public_html/checkerboard/index.php on line 70
+[25-Jan-2014 21:18:35] PHP Parse error:  syntax error, unexpected $end in /home4/eleanorz/public_html/checkerboard/index.php on line 70
+[25-Jan-2014 21:24:12] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 75
+[25-Jan-2014 21:34:02] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 75
+[25-Jan-2014 21:35:52] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 74
+[25-Jan-2014 21:50:09] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 75
+[26-Jan-2014 17:49:02] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:07] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:11] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:15] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:26] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:29] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:34] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:36] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:39] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:41] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:49:44] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:51:41] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:51:51] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:51:54] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
+[26-Jan-2014 17:51:58] PHP Fatal error:  Call to undefined function  gimmecolor() in /home4/eleanorz/public_html/checkerboard/index.php on line 77
