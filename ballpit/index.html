@@ -28,7 +28,7 @@
 			return Math.random()*(max-min) + min;
 		}
 
-		//returns a random color
+		//returns one of the three primary colors, selected to mimic real ball pit colors
 		var randColor = function()
 		{
 			possible_colors = ["#AC2202","#07467A","#DF9900","#0A8132"];
@@ -37,6 +37,7 @@
 			return possible_colors[x];
 		}
 
+		//note, old function, which allows for selection of any number of given colors:
 		// function randColor()
 	 //    {
 	 //    	var possible_colors
@@ -58,7 +59,7 @@
 
 			var c = randColor();
 
-			//create a circle 
+			//create a circle, eventually maybe put a gradient in here: http://www.w3schools.com/svg/svg_grad_radial.asp
 			var circle = makeSVG('circle', 
 				{ 	cx: this.info.cx,
 				  	cy: this.info.cy,
@@ -157,7 +158,6 @@
 			playground.createNewCircle(e.x,e.y, r);
 		}
 
-		//final step should be crafting the circle
 	})();
 	
 	</script>
@@ -165,7 +165,8 @@
 
 
 	<script>
-	// //copied directly from demo code
+	
+	//old notes from previous iterations:
 	// //using immediate function to avoid global variable issues
 	// ( function()
 	// {
